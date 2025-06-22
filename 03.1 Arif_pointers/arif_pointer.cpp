@@ -16,9 +16,9 @@ int main() {
 
     std::cout << "Pointer memory char: " << std::setw(n) << size_t(s + 2) << std::endl;
 
-    int* r = &n;
+    int* r = (int*)1000;
 
-    
+    std::cout << "Pointer memory int r: " << std::setw(r) << size_t(r +12) << std::endl; 
 
 
 }
