@@ -16,5 +16,9 @@ int main() {
 
     std::cout << "Pointer memory char: " << std::setw(n) << size_t(s + 2) << std::endl;
 
+    int* r = &n;
+
+    
+
 
 }
