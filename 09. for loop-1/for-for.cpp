@@ -19,5 +19,7 @@ int main() {
         std::cout << std::endl;
     }
     std::cout << "Game over!\n";
+
+    std::cin.get();
     return 0;
 }
