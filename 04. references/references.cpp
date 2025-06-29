@@ -26,6 +26,6 @@ int main() {
    std::cout << "References name2 " << name3 << std::endl;
 
 
-   system("pause");
+ //  system("pause");
    return 0;
 }
