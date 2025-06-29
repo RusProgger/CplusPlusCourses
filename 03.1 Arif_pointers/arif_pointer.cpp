@@ -20,6 +20,8 @@ int main() {
 
     std::cout << "Pointer memory int r: " << std::setw(r) << size_t(r +12) << std::endl; 
 
+    std::cin.get();
+
     return 0;
 
 
