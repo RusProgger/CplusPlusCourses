@@ -62,7 +62,7 @@ int main()
 
     std::cout << ff << std::endl;
 
-
+    std::cin.get();
 
    // system("pause");
     return 0;
