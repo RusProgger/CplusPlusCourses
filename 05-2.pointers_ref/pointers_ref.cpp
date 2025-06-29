@@ -23,6 +23,8 @@ int main() {
         std::wcout << L"Нет такого возраста. " << *res << std::endl;
     }
 
+    std::cin.get();
+
     return 0;
     
 }
