@@ -31,6 +31,8 @@ int main() {
     else {
         std::wcout << L"Неверный логин или пароль" << std::endl;
     }
+
+    std::cin.get();
     
     return 0;
 }
