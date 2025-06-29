@@ -25,6 +25,7 @@ int main() {
    std::cout << "References name2 " << name2 << std::endl;
    std::cout << "References name2 " << name3 << std::endl;
 
+   std::cin.get();
 
  //  system("pause");
    return 0;
