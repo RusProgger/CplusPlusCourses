@@ -40,5 +40,7 @@ int main() {
 
     std::cout << "Width array: " << res << std::endl;
 
+    std::cin.get();
+
     return 0;
 }
