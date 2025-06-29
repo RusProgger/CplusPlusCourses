@@ -36,5 +36,7 @@ int main() {
 
     std::cout << "Program finished." << std::endl;
 
+    std::cin.get();
+
     return 0;
 }
