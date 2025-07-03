@@ -22,7 +22,10 @@ int numberMinus(int a, int b) {
 }
 
 int numberDel(int a, int b) {
-    
+    if(b == 0) {
+        std::cout << "Error";
+        return 0;
+    }
     return a / b;
 }
 
@@ -35,8 +38,8 @@ int main() {
     int x = 10;
 
     int res_Plus = numberPlus(10, 39);
-    int res_Minus = numberMinus(10, 39);
-    int res_Del = numberDel(10, 39);
+    int res_Minus = numberMinus(1, 10);
+    int res_Del = numberDel(1, 0);
     int res_M = numberM(10, 39);
 
     textHello();
