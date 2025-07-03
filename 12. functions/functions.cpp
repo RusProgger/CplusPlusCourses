@@ -21,6 +21,8 @@ int main() {
     textHello_1();
 
     textHello_2();
+
+    std::cin.get();
  
     return 0;
 }
