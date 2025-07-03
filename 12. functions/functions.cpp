@@ -22,5 +22,5 @@ int main() {
 
     textHello_2();
  
-    
+    return 0;
 }
