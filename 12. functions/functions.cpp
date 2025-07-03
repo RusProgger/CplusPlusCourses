@@ -54,5 +54,9 @@ int main() {
     std::cout << res_Minus << std::endl;
     std::cout << res_Del << std::endl;
     std::cout << res_M << std::endl;
+
+
+    std::cin.get();
+    return 0;
     
 }
