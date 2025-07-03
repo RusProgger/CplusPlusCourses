@@ -12,9 +12,32 @@ void textHello_2() {
     std::cout << "Function - 2" << std::endl;
 }
 
+
+int numberPlus(int a, int b) {
+    return a + b;
+}
+
+int numberMinus(int a, int b) {
+    return a - b;
+}
+
+int numberDel(int a, int b) {
+    
+    return a / b;
+}
+
+int numberM(int a, int b) {
+    return a * b;
+}
+
 int main() {
 
     int x = 10;
+
+    int res_Plus = numberPlus(10, 39);
+    int res_Minus = numberMinus(10, 39);
+    int res_Del = numberDel(10, 39);
+    int res_M = numberM(10, 39);
 
     textHello();
 
@@ -22,7 +45,11 @@ int main() {
 
     textHello_2();
 
-    std::cin.get();
- 
-    return 0;
+    // функция int
+
+    std::cout << res_Plus << std::endl;
+    std::cout << res_Minus << std::endl;
+    std::cout << res_Del << std::endl;
+    std::cout << res_M << std::endl;
+    
 }
