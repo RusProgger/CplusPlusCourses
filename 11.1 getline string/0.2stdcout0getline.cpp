@@ -1,26 +1,27 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <limits> 
 
 int main() {
-
     std::string str;
     int numEnter;
 
-    // enter text
-
     std::cout << "Text: ";
     std::getline(std::cin, str);
-
     std::cout << str << std::endl;
 
     std::cout << "Enter input num: ";
     std::cin >> numEnter;
 
-    std::cout << "Enter input text: ";
+    // Очистить \n после ввода числа
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-    for(int count = 1; count < numEnter; count++ ) {
+    std::cout << "Enter input text:\n";
+
+    for(int count = 1; count < numEnter; count++) {
         std::getline(std::cin, str);
     }
+
     std::cout << str << std::endl;
 }
