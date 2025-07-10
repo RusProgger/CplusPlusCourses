@@ -26,4 +26,5 @@ int main() {
     std::cout << str << std::endl;
 
     std::cin.get();
+    return 0;
 }
