@@ -1,16 +1,22 @@
 #include <iostream>
 
-void funN(int a) {
+void funA(int a) {
    ++a;
-   std::cout << "Fuction funN: " << a;
+   std::cout << "Fuction funN: " << a << std::endl;
+}
+
+void funB(float b) {
+    std::cout << "FunB: " << b << "\n";
+    
 }
 
 int main() {
     int a = 1;
+    float b = 50.5;
     std::cout << "A: " << a << std::endl;
-    
-    funN(a);
 
-    std::cin.get();
-    return 0;
+    std::cout << "B: " << b << std::endl;
+    
+    funA(a);
+    funB(b);
 }
