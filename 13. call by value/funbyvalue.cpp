@@ -10,4 +10,6 @@ int main() {
     std::cout << "A: " << a << std::endl;
     
     funN(a);
+
+   return 0;
 }
