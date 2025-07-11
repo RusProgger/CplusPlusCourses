@@ -11,5 +11,6 @@ int main() {
     
     funN(a);
 
+    std::cin.get();
     return 0;
 }
