@@ -17,5 +17,6 @@ int main() {
     int res = 100;
     funR(res);
 
+    std::cin.get();
     return 0;
 }
