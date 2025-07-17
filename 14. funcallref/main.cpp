@@ -16,4 +16,6 @@ int main() {
 
     int res = 100;
     funR(res);
+
+   return 0;
 }
