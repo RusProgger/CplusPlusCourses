@@ -13,7 +13,7 @@ void funR(int &ref) {
 void funT(int* t) {
 
    *t = *t * 2;
-   
+   std::cout << "funT: " *t << std::endl;
 }
 
 int main() {
@@ -22,6 +22,8 @@ int main() {
 
     int res = 100;
     funR(res);
+
+    int tt = 20;
 
     std::cin.get();
     return 0;
