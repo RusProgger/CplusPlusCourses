@@ -10,6 +10,12 @@ void funR(int &ref) {
     std::cout << "funR: " << ref;
 }
 
+void funT(int* t) {
+
+   *t = *t * 2;
+   
+}
+
 int main() {
     int a = 10;
     funP(&a);
