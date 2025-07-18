@@ -25,6 +25,8 @@ int main() {
 
     int tt = 20;
 
+    funT(&tt);
+
     std::cin.get();
     return 0;
 }
