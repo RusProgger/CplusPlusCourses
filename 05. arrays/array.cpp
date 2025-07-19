@@ -33,6 +33,7 @@ int main() {
     user[2] = "Ivan";
     user[3] = "Tolik";
     user[4] = "Julia";
+    user[5] = "Denis";
 
     std::cout << "User = " << user[4] << std::endl;
 
