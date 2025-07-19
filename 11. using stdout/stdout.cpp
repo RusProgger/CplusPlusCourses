@@ -5,7 +5,7 @@ int main() {
 
     std::string name = "Ruslan";
 
-    std::string name{"Ruslan"};
+    std::string name {"Ruslan"};
     
     std::cout << "Hello, World! " << std::endl;
     std::cout << "Hello, C++ " << std::endl;
