@@ -3,7 +3,7 @@
 
 int main() {
 
-    std::string name = "Ruslan";
+   // std::string name = "Ruslan";
 
     std::string name {"Ruslan"};
     
