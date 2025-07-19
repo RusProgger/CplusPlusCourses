@@ -7,9 +7,9 @@ int main() {
 
     std::string name {"Ruslan"};
 
-    char s = name.at(2);
+    char s = name.at(2); // s
 
-    std::cout << s << std::endl;
+    std::cout << s << std::endl; // s
     
     std::cout << "Hello, World! " << std::endl;
     std::cout << "Hello, C++ " << std::endl;
