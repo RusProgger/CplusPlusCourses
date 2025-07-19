@@ -26,7 +26,7 @@ int main() {
 
 
 
-    std::string user[5];
+    std::string user[6];
 
     user[0] = "Alex";
     user[1] = "Anjeli";
