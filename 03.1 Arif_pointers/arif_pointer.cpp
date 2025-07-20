@@ -3,8 +3,10 @@
 
 int main() {
 
+    // INT 
     int n = 0;
 
+    
     std::cout << "Enter count polygon: ";
     std::cin >> n;
 
