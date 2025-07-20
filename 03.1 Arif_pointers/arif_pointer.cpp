@@ -6,7 +6,7 @@ int main() {
     // INT 
     int n = 0;
 
-    
+    // ENTER MESSAGE
     std::cout << "Enter count polygon: ";
     std::cin >> n;
 
