@@ -19,7 +19,7 @@
 
 
 int main() {
-    
+    // Array
     int numb[] = {1, 5, 10, 55, 64, 38};
 
     std::cout << numb[1] << std::endl;
