@@ -24,8 +24,6 @@ int main() {
 
     std::cout << numb[1] << std::endl;
 
-
-
     std::string user[6];
 
     user[0] = "Alex";
