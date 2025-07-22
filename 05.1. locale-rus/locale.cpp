@@ -3,7 +3,7 @@
 #include <locale>
 
 int main() {
-    // std::locale::global(std::locale("")); // Почему то не работает на g++
+    // std::locale::global(std::locale("")); 
 
     setlocale(LC_ALL, "Russian");
 
