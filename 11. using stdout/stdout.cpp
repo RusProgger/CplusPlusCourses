@@ -5,7 +5,7 @@ int main() {
 
    // std::string name = "Ruslan";
 
-    std::string name {"Ruslan"};
+    std::string name {"Dmitriy"};
 
     char s = name.at(2); // s
 
