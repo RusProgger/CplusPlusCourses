@@ -19,4 +19,7 @@ int main() {
     
     funA(a);
     funB(b);
+
+    return 0;
+
 }
