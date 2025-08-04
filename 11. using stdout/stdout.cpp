@@ -21,9 +21,12 @@ int main() {
     std::string user;
 
     std::getline(std::cin, user);
+
+    std::cout << user << " " << std::endl;
     
     std::cin.get();
     return 0;
 }
+
 
 
