@@ -19,9 +19,11 @@ int main() {
     // cin enter
 
     std::string user;
-    
+
+    std::getline(std::cin, user);
     
     std::cin.get();
     return 0;
 }
+
 
