@@ -13,7 +13,7 @@ float summa(float a, float b) {
 int main() {
 
     int resSummaPlus =  summa(10, 15);
-    int resSummaPlusFloat = summa(55.5f, 10.2f);
+    float resSummaPlusFloat = summa(55.5f, 10.2f);
 
     std::cout << resSummaPlus << std::endl;
     std::cout << resSummaPlusFloat << std::endl;
