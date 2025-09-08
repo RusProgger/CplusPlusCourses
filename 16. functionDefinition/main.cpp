@@ -7,11 +7,13 @@ int main() {
     int a_f = 10;
     int b_p = 20;
 
-    int resultTest = MyFunctionIntResult(&a_f, &b_p);
-    float resultTest = MyFunctionIntResult(&a_f, &b_p);
-    double resultTest = MyFunctionIntResult(&a_f, &b_p);
+    int resultTestInt = MyFunctionIntResult(&a_f, &b_p);
+    float resultTestFloat = MyFunctionIntResult(&a_f, &b_p);
+    double resultTestDouble = MyFunctionIntResult(&a_f, &b_p);
 
-    std::cout << resultTest << std::endl;
+    std::cout << resultTestInt << std::endl;
+    std::cout << resultTestFloat << std::endl;
+    std::cout << resultTestDouble << std::endl;
 
     return 0;
 }
