@@ -9,7 +9,6 @@ float summa(float a, float b) {
 }
 
 
-
 int main() {
 
     int resSummaPlus =  summa(10, 15);
