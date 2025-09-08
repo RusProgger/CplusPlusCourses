@@ -8,6 +8,8 @@ int main() {
     int b_p = 20;
 
     int resultTest = MyFunctionIntResult(&a_f, &b_p);
+    float resultTest = MyFunctionIntResult(&a_f, &b_p);
+    double resultTest = MyFunctionIntResult(&a_f, &b_p);
 
     std::cout << resultTest << std::endl;
 
