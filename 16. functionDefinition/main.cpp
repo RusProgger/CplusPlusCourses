@@ -22,5 +22,6 @@ int main() {
     std::cout << resultTestFloat << std::endl;
     std::cout << std::fixed << std::setprecision(2) << resultTestDouble << std::endl;
 
+    std::cin.get();
     return 0;
 }
