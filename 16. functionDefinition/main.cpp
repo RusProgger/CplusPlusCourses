@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Myfunction.h"
+#include <iomanip>
 
 int main() {
 
@@ -19,7 +20,7 @@ int main() {
 
     std::cout << resultTestInt << std::endl;
     std::cout << resultTestFloat << std::endl;
-    std::cout << resultTestDouble << std::endl;
+    std::cout << std::fixed << std::setprecision(2) << resultTestDouble << std::endl;
 
     return 0;
 }
