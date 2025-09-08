@@ -1,5 +1,5 @@
-#ifndef MYFUN
-#define MYFUN
+#ifndef MYFUNCTION_H_
+#define MYFUNCTION_H_
 
 int MyFunctionIntResult(int* a, int* b);
 float MyFunctionIntResult(float* a, float* b);
