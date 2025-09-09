@@ -14,6 +14,6 @@ double MyFunctionIntResult(double* a, double* b) {
     return (*a / *b);
 }
 
-std::string nameFun(std::string name) {
+std::string nameFun(const std::string& name) {
     return name;
 }

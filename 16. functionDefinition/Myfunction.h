@@ -6,6 +6,6 @@
 int MyFunctionIntResult(int* a, int* b);
 float MyFunctionIntResult(float* a, float* b);
 double MyFunctionIntResult(double* a, double* b);
-std::string nameFun(std::string name);
+std::string nameFun(const std::string& name);
 
 #endif 
