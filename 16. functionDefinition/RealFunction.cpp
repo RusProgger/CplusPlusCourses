@@ -13,3 +13,7 @@ float MyFunctionIntResult(float* a, float* b) {
 double MyFunctionIntResult(double* a, double* b) {
     return (*a / *b);
 }
+
+std::string nameFun(std::string name) {
+    return name;
+}
