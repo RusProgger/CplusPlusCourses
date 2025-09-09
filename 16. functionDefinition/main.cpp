@@ -15,6 +15,8 @@ int main() {
     double r_p = 55.3;
     double t_p = 10.9;
 
+    std::string name = "Alex";
+
     int resultTestInt = MyFunctionIntResult(&a_f, &b_p);
     float resultTestFloat = MyFunctionIntResult(&d_p, &g_p);
     double resultTestDouble = MyFunctionIntResult(&r_p, &t_p);
@@ -22,7 +24,8 @@ int main() {
     std::cout << resultTestInt << std::endl;
     std::cout << resultTestFloat << std::endl;
     std::cout << std::fixed << std::setprecision(2) << resultTestDouble << std::endl;
-
+    nameFun(name);
+    
     std::cin.get();
     return 0;
 }
