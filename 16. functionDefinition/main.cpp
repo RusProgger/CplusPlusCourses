@@ -26,6 +26,7 @@ int main() {
     std::cout << std::fixed << std::setprecision(2) << resultTestDouble << std::endl;
     std::cout << nameFun(name) << std::endl;
 
+    std::cout << "Enter to exit...\n";
     std::cin.get();
     return 0;
 }
