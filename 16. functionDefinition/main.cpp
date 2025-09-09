@@ -15,7 +15,11 @@ int main() {
     double r_p = 55.3;
     double t_p = 10.9;
 
-    std::string name = "Alex";
+    std::string name;
+
+    // enter name
+    std::cout << "Enter name: ";
+    std::cin >> name;
 
     int resultTestInt = MyFunctionIntResult(&a_f, &b_p);
     float resultTestFloat = MyFunctionIntResult(&d_p, &g_p);
