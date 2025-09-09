@@ -2,9 +2,7 @@
 #include "Myfunction.h"
 #include <iomanip>
 
-
 int main() {
-
 
     int a_f = 10;
     int b_p = 20;
