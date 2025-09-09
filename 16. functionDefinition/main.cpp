@@ -24,8 +24,8 @@ int main() {
     std::cout << resultTestInt << std::endl;
     std::cout << resultTestFloat << std::endl;
     std::cout << std::fixed << std::setprecision(2) << resultTestDouble << std::endl;
-    nameFun(name);
-    
+    std::cout << nameFun(name) << std::endl;
+
     std::cin.get();
     return 0;
 }
