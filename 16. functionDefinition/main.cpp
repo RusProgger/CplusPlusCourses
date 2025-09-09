@@ -20,6 +20,7 @@ int main() {
     // enter name
     std::cout << "Enter name: ";
     std::cin >> name;
+    std::cin.ignore(); // очищаем буфер
 
     int resultTestInt = MyFunctionIntResult(&a_f, &b_p);
     float resultTestFloat = MyFunctionIntResult(&d_p, &g_p);
